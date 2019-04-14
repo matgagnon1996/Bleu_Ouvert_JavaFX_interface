@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="843.0" styleClass="pane" stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="spectatorpiapp.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22c5f200" height="119.0" layoutX="215.0" layoutY="25.0" stroke="#22c3f3" strokeType="INSIDE" strokeWidth="5.0" width="598.0" />
+        <Label fx:id="text" layoutX="220.0" layoutY="28.0" minHeight="16" minWidth="69" prefHeight="112.0" prefWidth="589.0" text="      Lorem Ispum" textFill="#90c84e" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ImageView fitHeight="127.0" fitWidth="136.0" layoutX="23.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../MainPiApp/src/img/logo_BO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="11.0" layoutY="62.0" prefHeight="146.0" prefWidth="172.0" text="La revalorisation du plastique par soi-meme" textAlignment="CENTER" textFill="#22c3f3" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Group layoutX="-12.0" layoutY="43.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22c5f200" height="287.0" layoutX="482.0" layoutY="129.0" stroke="#22c3f3" strokeType="INSIDE" strokeWidth="5.0" width="345.0" />
+            <ImageView fx:id="cam2_view" fitHeight="287.0" fitWidth="343.0" layoutX="483.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Group>
+      <Group layoutX="-423.0" layoutY="41.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22c5f200" height="287.0" layoutX="482.0" layoutY="129.0" stroke="#22c3f3" strokeType="INSIDE" strokeWidth="5.0" width="345.0" />
+            <ImageView fx:id="cam1_view" fitHeight="287.0" fitWidth="343.0" layoutX="482.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Group>
+    </children>
+</AnchorPane>

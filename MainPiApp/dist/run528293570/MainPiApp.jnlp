@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MainPiApp.jnlp">
+  <information>
+    <title>MainPiApp</title>
+    <vendor>mathieu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MainPiApp.jar" size="49310" download="eager" />
+    <jar href="lib/core-3.3.0.jar" size="541078" download="eager" />
+    <jar href="lib/gst1-java-core-1.0.0-javadoc.jar" size="1372361" download="eager" />
+    <jar href="lib/gst1-java-core-1.0.0.jar" size="542470" download="eager" />
+    <jar href="lib/javacpp-1.0.jar" size="242754" download="eager" />
+    <jar href="lib/javacv-1.0.jar" size="332464" download="eager" />
+    <jar href="lib/javase-3.3.0.jar" size="41451" download="eager" />
+    <jar href="lib/jna-5.2.0.jar" size="1488769" download="eager" />
+    <jar href="lib/opencv-3.0.0-1.0-linux-arm.jar" size="6483271" download="eager" />
+    <jar href="lib/opencv-3.0.0-1.0.jar" size="606462" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MainPiApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mainpiapp.MainPiApp"  name="MainPiApp" />
+  <update check="always"/>
+</jnlp>
