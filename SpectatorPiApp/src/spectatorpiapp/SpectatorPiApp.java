@@ -11,6 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import org.freedesktop.gstreamer.Gst;
 
 /**
  *
@@ -33,6 +34,7 @@ public class SpectatorPiApp extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Gst.init("CameraTest",args);
         launch(args);
     }
     

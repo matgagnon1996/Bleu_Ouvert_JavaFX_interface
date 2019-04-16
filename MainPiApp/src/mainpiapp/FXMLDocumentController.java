@@ -169,7 +169,6 @@ public class FXMLDocumentController implements Initializable {
     //private Bin bin;
     Bus bus;
     private StringBuilder caps;
-    private ImageContainer imageContainer;
             
           
     @FXML
@@ -607,65 +606,6 @@ public class FXMLDocumentController implements Initializable {
        // init camera 
        
     }  
-    
-    public void  initCamera() throws Exception
-    {
-        Pipeline pipe = (Pipeline) Gst.parseLaunch("tcpclientsrc host=math-pi-1.local port=10003 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false");
-
-//        bin = Gst.parseBinFromDescription("tcpclientsrc host=math-pi-1.local port=10003 !"+
-//                                    " gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false "
-//                                    , true);
-//        
-        //videosink = (AppSink) bin.getElementByName("cam1sink");
-        
-//        AppSinkListener GstListener = new AppSinkListener();
-//        videosink.connect(GstListener);
-//        caps = new StringBuilder("video/x-raw, ");
-//        // JNA creates ByteBuffer using native byte order, set masks according to that.
-//        if (ByteOrder.nativeOrder() == ByteOrder.LITTLE_ENDIAN) {
-//            caps.append("format=BGRx");
-//        } else {
-//            caps.append("format=xRGB");
-//        }
-//        videosink.setCaps(new Caps(caps.toString()));
-//        videosink.set("max-buffers", 5000);
-//        videosink.set("drop", true);
-//        bin = Bin.
-//        pipe = new Pipeline();
-//        pipe.addMany(bin, videosink);
-//        Pipeline.linkMany(bin, videosink);
-//        cam1_view = new ImageView();
-//        
-//        imageContainer = GstListener.getImageContainer();
-//        imageContainer.addListener(new ChangeListener<Image>() {
-//
-//			@Override
-//			public void changed(ObservableValue<? extends Image> observable, Image oldValue, final
-//					Image newValue) {
-//				Platform.runLater(new Runnable() {
-//					@Override
-//					public void run() {
-//						cam1_view.setImage(newValue);
-//					}
-//				});
-//				
-//			}
-//        	
-//		});
-//        
-//        bus = pipe.getBus();
-//        bus.connect(new Bus.MESSAGE() {
-//			
-//			@Override
-//			public void busMessage(Bus arg0, Message arg1) {
-//
-//				System.out.println(arg1.getStructure());				
-//			}
-//		});
-//        pipe.play();
-
-        
-    }
     
     public void initQrCode()
     {

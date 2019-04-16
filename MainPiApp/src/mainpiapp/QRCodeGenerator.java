@@ -88,11 +88,6 @@ public class QRCodeGenerator {
           }
       }
         
-        System.out.println(generatedCode);
-        for(int i = 0;i<totalBytes;i++)
-        {
-            System.out.println(bitMapEncode[i] + ", ");
-        }
         return bitMapEncode;
     }
 }
