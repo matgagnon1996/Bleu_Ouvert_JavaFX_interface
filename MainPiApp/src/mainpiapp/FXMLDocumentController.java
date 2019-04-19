@@ -148,7 +148,7 @@ public class FXMLDocumentController implements Initializable {
     private TextField temp_input, weight_input, lot_number_input, nb_sticker_input;
     
     @FXML
-    private Circle  sts_cam1, sts_cam2, sts_control, sts_printer, sts_bourrage;
+    private Circle sts_control, sts_printer, sts_bourrage;
     
     
     @FXML
@@ -825,16 +825,6 @@ public class FXMLDocumentController implements Initializable {
                 sts_printer.setStroke(Color.rgb(144, 200, 78));
                 break;
                 
-            case "RPI-Cam1":
-                sts_cam1.setFill(Color.rgb(144, 200, 78));
-                sts_cam1.setStroke(Color.rgb(144, 200, 78));
-                break;
-                
-            case "RPI-Cam2":
-                sts_cam2.setFill(Color.rgb(144, 200, 78));
-                sts_cam2.setStroke(Color.rgb(144, 200, 78));
-                break;
-                
             default :
                 break;       
         }
@@ -852,16 +842,6 @@ public class FXMLDocumentController implements Initializable {
             case "RPI-Printer":
                 sts_printer.setFill(Color.rgb(214, 19, 28));
                 sts_printer.setStroke(Color.rgb(214, 19, 28));
-                break;
-                
-            case "RPI-Cam1":
-                sts_cam1.setFill(Color.rgb(214, 19, 28));
-                sts_cam1.setStroke(Color.rgb(214, 19, 28));
-                break;
-                
-            case "RPI-Cam2":
-                sts_cam2.setFill(Color.rgb(214, 19, 28));
-                sts_cam2.setStroke(Color.rgb(214, 19, 28));
                 break;
                 
             default :
