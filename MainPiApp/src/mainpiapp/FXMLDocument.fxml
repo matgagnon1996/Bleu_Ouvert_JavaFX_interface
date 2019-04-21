@@ -49,7 +49,7 @@
                               <Font name="System Bold" size="16.0" />
                            </font>
                         </Label>
-                        <Button fx:id="print_button" layoutX="434.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#sendPrintCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_print" text="Imprimer" />
+                        <Button fx:id="print_button" layoutX="434.0" layoutY="387.0" mnemonicParsing="false" onMouseClicked="#sendPrintCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_print" text="Imprimer" />
                         <Label layoutX="313.0" layoutY="251.0" prefHeight="55.0" prefWidth="21.0" text="ºC" textAlignment="CENTER" textFill="#90c84e" wrapText="true">
                            <font>
                               <Font name="System Bold" size="14.0" />
@@ -84,7 +84,7 @@
                            </font>
                         </Label>
                         <Group layoutX="326.0" layoutY="199.0" />
-                        <Button fx:id="stop_button" layoutX="634.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#sendStopCommandEventHandler" prefHeight="37.0" prefWidth="114.0" styleClass="button_stop" text="Arrêt" />
+                        <Button fx:id="stop_button" layoutX="634.0" layoutY="387.0" mnemonicParsing="false" onMouseClicked="#sendStopCommandEventHandler" prefHeight="37.0" prefWidth="114.0" styleClass="button_stop" text="Arrêt" />
                         <Label layoutX="447.0" layoutY="158.0" prefHeight="55.0" prefWidth="279.0" text="Informations de tracabilité" textAlignment="CENTER" textFill="#90c84e" wrapText="true">
                            <font>
                               <Font name="System Bold" size="16.0" />
@@ -137,7 +137,7 @@
                         </Label>
                         <Line endX="100.0" layoutX="388.0" layoutY="267.0" rotate="90.0" startX="-100.0" stroke="#90c84e" strokeWidth="3.0" />
                         <Circle fx:id="sts_printer" fill="#d6131c" layoutX="37.0" layoutY="105.0" radius="13.0" stroke="#d6131c" strokeType="INSIDE" />
-                        <Button fx:id="start_button" layoutX="28.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#sendStartCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_start" text="Démarrer" />
+                        <Button fx:id="start_button" layoutX="28.0" layoutY="387.0" mnemonicParsing="false" onMouseClicked="#sendStartCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_start" text="Démarrer" />
                         <TextField fx:id="nb_sticker_input" layoutX="610.0" layoutY="329.0" prefHeight="25.0" prefWidth="117.0" />
                         <Label layoutX="59.0" layoutY="253.0" prefHeight="55.0" prefWidth="136.0" text="Température" textAlignment="CENTER" textFill="#90c84e" wrapText="true">
                            <font>
@@ -164,7 +164,7 @@
                         <Circle fx:id="sts_control" fill="#d6131c" layoutX="37.0" layoutY="44.0" radius="14.0" stroke="#d6131c" strokeType="INSIDE" />
                         <TextField fx:id="lot_number_input" layoutX="609.0" layoutY="281.0" prefHeight="25.0" prefWidth="117.0" />
                         <ComboBox fx:id="plastic_type" layoutX="63.0" layoutY="225.0" prefHeight="26.0" prefWidth="198.0" promptText="Type de plastique" />
-                        <Button fx:id="heat_button" layoutX="234.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#sendHeatCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_print" text="Chauffage" />
+                        <Button fx:id="heat_button" layoutX="234.0" layoutY="387.0" mnemonicParsing="false" onMouseClicked="#sendHeatCommandEventHandler" prefHeight="38.0" prefWidth="117.0" styleClass="button_print" text="Chauffage" />
                         <ToggleButton fx:id="toggle_button_mode" layoutX="168.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#toggleModeButton" prefHeight="26.0" prefWidth="153.0" selected="true" styleClass="button_print" text="Extrudeur" />
                         <Label layoutX="61.0" layoutY="327.0" prefHeight="55.0" prefWidth="101.0" text="Mode" textAlignment="CENTER" textFill="#90c84e" wrapText="true">
                            <font>
