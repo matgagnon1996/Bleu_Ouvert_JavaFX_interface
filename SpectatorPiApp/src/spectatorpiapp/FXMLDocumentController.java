@@ -193,7 +193,7 @@ public class FXMLDocumentController implements Initializable {
                            Platform.runLater(new Runnable() {
 					@Override
 					public void run() {
-                                            text.setText("aldjoehsf;oihme2p9qyw9p8yfd2e lwhrpnif2yzdep9 ;wrhpnfd12d3y98 elaurgfpb2u31ye⁹ 3ifue9pe2h392fheo");
+                                            text.setText("À chaque année, il y a huit millions de tonnes de plastique qui sont jeté à la mer. Cela fait en sorte, qu'il y a un gigantesque continent de plastique qui s'est crée dans l'océan Pacifique.");
                                         }
                            });
                             Thread.sleep(15000);
@@ -202,17 +202,10 @@ public class FXMLDocumentController implements Initializable {
                             Platform.runLater(new Runnable() {
 					@Override
 					public void run() {
-                                            text.setText("Allo je suis beau et bleu ouvert");
+                                            text.setText("Ce plastique met entre 500 et 1000 ans avant de se décomposer, donc chez Bleu Ouvert, nous essayons de réduire notre empreinte écologique en fabricant des produits à base de plastique recyclé.");
                                         }
                             });
-                            Thread.sleep(15000);
-                            
-                            Platform.runLater(new Runnable() {
-					@Override
-					public void run() {
-                                            text.setText("La terre est en train de mourir à cause du manque de recyclage");
-                                        }
-                            });
+
                             
                             Thread.sleep(15000);
                         }catch(Exception e)

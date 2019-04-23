@@ -11,7 +11,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="1056.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spectatorpiapp.FXMLDocumentController">
     <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22c5f200" height="119.0" layoutX="215.0" layoutY="25.0" stroke="#22c3f3" strokeType="INSIDE" strokeWidth="5.0" width="840.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22c5f200" height="119.0" layoutX="199.0" layoutY="25.0" stroke="#22c3f3" strokeType="INSIDE" strokeWidth="5.0" width="856.0" />
         <Label fx:id="text" layoutX="220.0" layoutY="28.0" minHeight="16" minWidth="69" prefHeight="119.0" prefWidth="840.0" text="      Lorem Ispum" textFill="#90c84e" wrapText="true">
          <font>
             <Font size="20.0" />
