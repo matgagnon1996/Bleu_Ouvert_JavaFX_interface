@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MainPiApp.jar" size="48771" download="eager" />
+    <jar href="MainPiApp.jar" size="48778" download="eager" />
     <jar href="lib/core-3.3.0.jar" size="541078" download="eager" />
     <jar href="lib/gst1-java-core-1.0.0-javadoc.jar" size="1372361" download="eager" />
     <jar href="lib/gst1-java-core-1.0.0.jar" size="542470" download="eager" />
